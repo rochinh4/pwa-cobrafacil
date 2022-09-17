@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "pwa-cobrafacil",
+    "slug": "pwa-cobrafacil",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
