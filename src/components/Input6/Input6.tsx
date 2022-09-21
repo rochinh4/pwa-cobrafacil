@@ -3,17 +3,17 @@ import { TextComponent } from "react-native";
 import { Container, InputContainer } from "./styles";
 import { TextInput } from "react-native-paper";
 
-const Input2 = () => {
+const Input6 = () => {
   const [text, setText] = React.useState("");
 
   return (
     <InputContainer
       placeholderTextColor={"#ffffff"}
-      placeholder="Número de Cobrança                                                                                                       Por exemplo: 55DDDNÚMERO / 5573XXXXXXXX"
+      placeholder="Hora da Cobrança"
       value={text}
       onChangeText={(text: React.SetStateAction<string>) => setText(text)}
     />
   );
 };
 
-export default Input2;
+export default Input6;

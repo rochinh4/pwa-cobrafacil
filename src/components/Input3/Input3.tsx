@@ -10,7 +10,7 @@ const Input3 = () => {
   return (
     <InputContainer
       placeholderTextColor={"#ffffff"}
-      placeholder="Data da Cobrança ------------------------- Por exemplo: 16:30"
+      placeholder="Data da Cobrança (DD/MM/AAAA)                                                                             Por exemplo :              01/12/2039 "
       value={text}
       onChangeText={(text: React.SetStateAction<string>) => setText(text)}
     />

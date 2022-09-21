@@ -14,6 +14,7 @@ import Input1 from "../../components/Input/Input";
 import Input2 from "../../components/Input2/Input2";
 import Input3 from "../../components/Input3/Input3";
 import Input4 from "../../components/Input4/Input4";
+import Input5 from "../../components/Input5/Input5";
 
 const Spa: React.FC = () => {
   return (
@@ -30,6 +31,7 @@ const Spa: React.FC = () => {
           <Input2 />
           <Input3 />
           <Input4 />
+          <Input5 />
         </ContentBody>
         <ContentFooter>
           <Buttonadd />

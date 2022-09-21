@@ -8,7 +8,7 @@ export const Button = styled(RectButton)`
   width: ${RFValue(40)}px;
   height: ${RFValue(40)}px;
   border-radius: ${RFValue(100)}%;
-  background-color: ${({ theme }) => theme.COLORS.GREEN3};
+  background-color: ${({ theme }) => theme.COLORS.GREEN2};
 `;
 export const Iconepig = styled.Image`
   width: ${RFValue(30)}px;

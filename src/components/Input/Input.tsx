@@ -8,7 +8,7 @@ const Input1 = () => {
   return (
     <InputContainer
       placeholderTextColor={"#ffffff"}
-      placeholder="Nome do Devedor"
+      placeholder="Nome do Devedor                                                                                                              Por exemplo :             Joãozinho das Neves "
       value={text}
       onChangeText={(text: React.SetStateAction<string>) => setText(text)}
     />

@@ -9,7 +9,7 @@ const Input4 = () => {
   return (
     <InputContainer
       placeholderTextColor={"#ffffff"}
-      placeholder="Hora da Cobrança"
+      placeholder="Nome do Cobrador                                                                                                            Por exemplo :             Cersina do Carmo "
       value={text}
       onChangeText={(text: React.SetStateAction<string>) => setText(text)}
     />

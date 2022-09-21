@@ -20,6 +20,6 @@ export const InputContainer = styled.TextInput`
   margin-top: 10px;
   border-radius: 8px;
   font-family: ${({ theme }) => theme.FONTS.POPPINSMEDIUM};
-  background-color: ${({ theme }) => theme.COLORS.GREEN2};
+  background-color: ${({ theme }) => theme.COLORS.GREEN3};
   color: ${({ theme }) => theme.COLORS.WHITE};
 `;
