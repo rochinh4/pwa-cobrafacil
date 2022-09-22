@@ -9,11 +9,7 @@ import { Text } from "react-native-paper";
 const Buttonadd: React.FC = () => {
   return (
     <TouchableOpacity>
-      <Button
-        onActivated={alert(
-          "Sua cobrança foi salva! E já entraremos em contato!"
-        )}
-      >
+      <Button>
         <Iconepig source={PngPig} resizeMode="contain" />
       </Button>
     </TouchableOpacity>
